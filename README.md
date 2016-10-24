@@ -9,7 +9,7 @@ Run the following command to connect this image as a slave to your Jenkins maste
 192.168.99.100:8080 - with the url to your Jenkins master.
 
 ```
-docker run -d -v ~/jenkins-slave:/var/build/jenkins praqma/yocto-build-container-jenkins-swarm-slave -master 192.168.99.100:8080 -executors 1 -fsroot /var/build/jenkins -labels aosp
+docker run -d -v ~/jenkins-slave:/var/build/jenkins praqma/yocto-build-container-jenkins-swarm-slave -master http://192.168.99.100:8080 -executors 1 -fsroot /var/build/jenkins -labels aosp
 ```
 
 To see full list of available options run the following
