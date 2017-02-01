@@ -1,3 +1,7 @@
+[![Build Status](https://api.travis-ci.org/Praqma/aosp-build-container-jenkins-swarm-slave.svg?branch=master)](https://travis-ci.org/Praqma/aosp-build-container-jenkins-swarm-slave)
+---
+maintainer: andrey9kin
+---
 # aosp-build-container-jenkins-swarm-slave
 
 ## Intro
